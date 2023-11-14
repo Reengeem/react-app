@@ -7,11 +7,12 @@ function TextControlsExample() {
     <Container>
       <div className="container mb-5 mt-5 ">
         <Container>
-          <h2 className="display-4 mt-3">Get in Touch</h2>
+          <h2 className="display-4 mt-3 text-center">Get in Touch</h2>
         </Container>
-        <Form className="container m-3t form-area w-100">
+        <Form className="container m-3t form-area">
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label className="form-control">Your Name</Form.Label>
+            {/* <Form.Label className="form-control">Your Name</Form.Label> */}
+            <Form.Control type="email" placeholder="Enter Your Name" />
             <Form.Control type="email" placeholder="Email" />
             <Form.Label></Form.Label>
             <Form.Control as="textarea" rows={3} />

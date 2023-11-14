@@ -7,8 +7,8 @@ function BasicExample() {
   return (
     <div>
       <div className="d-flex justify-content-center gap-5 flex-wrap">
-        <h4 className="container justify-content-center">
-          We Get You Covered in all You need, Just take Tour on our Packages
+        <h4 className="container text-center">
+          We Get You Covered in all You need, Just take Tour on our Packages!
         </h4>
         {cardData.map((item) => (
           <Card style={{ width: "18rem" }}>
